@@ -1,0 +1,118 @@
+/* .auth-page {
+    background-color: rgb(240, 245, 216);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.container-page {
+    background-color: white;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+} */
+
+:root {
+  --background: #1a1a2e;
+  --color: #ffffff;
+  --primary-color: #0f3460;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #9cbee8;
+  font-size: x-large;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(168, 209, 242, 0.1)),
+    url("https://images.pexels.com/photos/169789/pexels-photo-169789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    center/cover no-repeat fixed;
+  /* background-color: #aec7e8; */
+  /* background: #142d4c; */
+  /* font-family: "poppins"; */
+  color: #ffffff;
+  overflow-x: hidden;
+  letter-spacing: 1px;
+}
+
+.container-page {
+  width: 28.2rem;
+  /* background: rgba(170, 237, 247, 0.877); */
+  border: 1px solid hsla(0, 9%, 87%, 0.432);
+  box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  z-index: 99;
+  opacity: 0.85;
+  padding: 2rem;
+}
+
+.heading {
+  font-size: 32px;
+  padding-bottom: 25px;
+}
+
+.form-container form input {
+  display: block;
+  padding: 14.5px;
+  width: 100%;
+  margin: 2rem 0;
+  outline: none;
+}
+
+.container-page form input {
+  display: block;
+  padding: 14.5px;
+  width: 100%;
+  margin: 2rem 0;
+  color: var(--color);
+  outline: none;
+  background-color: #9191911f;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  font-size: 15px;
+  backdrop-filter: blur(15px);
+}
+
+.container-page form button {
+  background-color: var(--primary-color);
+  color: var(--color);
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: all 0.1s ease-in-out;
+  border: none;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container form fieldset {
+    border: none;
+    padding: 0; /* Optional: Remove default padding */
+    margin: 0; /* Optional: Remove default margin */
+}
