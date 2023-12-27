@@ -16,6 +16,7 @@ import { BackendErrorMessages } from 'src/app/shared/components/backendErrorMess
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
+styleUrls: ['./register.component.css'],
   standalone: true,
   imports: [
     ReactiveFormsModule,
